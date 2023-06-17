@@ -232,6 +232,12 @@ section {
 
 /* my projects */
 
+h4 {
+  font-size: 12px;
+  margin-left: -8%;
+  margin-bottom: -25px;
+}
+
 .image1 {
   display: flex;
   margin: auto;
@@ -248,11 +254,14 @@ section {
   cursor: pointer;
 }
 
+.imglogo1:hover {
+  border: 0.2rem solid red;
+}
 .row1 {
   border: 2px solid var(--main-color);
   justify-content: center;
   margin-right: 40px;
-  height: 260px;
+  height: 283px;
 }
 
 .row2 {
@@ -260,7 +269,7 @@ section {
   justify-content: center;
   margin-right: 40px;
   margin-bottom: -23px;
-  height: 260px;
+  height: 283px;
 }
 h3 {
   justify-content: center;
@@ -394,4 +403,28 @@ span {
   border-radius: 6rem;
   border: 0.2rem solid var(--main-color);
   margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+}
+
+.sourcebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ededed;
+  background-color: #0582b4c6;
+  height: 20px;
+  width: 110px;
+  font-size: 12px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.sourcebtn:hover {
+  font-size: 11px;
+  transition: 0.5s;
+  color: #ededed;
+  background-color: red;
 }
