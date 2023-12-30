@@ -71,7 +71,6 @@ header {
 }
 
 section {
-  min-height: 100vh;
   padding: 10rem 9% 2rem;
   /* margin-bottom: 100px; */
 }
@@ -79,7 +78,7 @@ section {
 .home {
   display: flex;
   align-items: center;
-  padding: 0 9%;
+  padding: 143px 9%;
   background: url(brand3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -113,12 +112,17 @@ section {
   margin: 2rem 0 4rem;
 }
 
+.main-project-div{
+  height: 10px;
+}
+
 .btn-box {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 34.5rem;
   height: 5rem;
+  margin: 30px 13px;
 }
 
 .btn-box .btn {
@@ -238,6 +242,7 @@ section {
   margin-left: -55px;
   margin-top: 55px;
 }
+
 .imglogo1 {
   height: 170px;
   width: 170px;
@@ -262,12 +267,11 @@ section {
   border: 2px solid var(--main-color);
   justify-content: center;
   margin-right: 40px;
-  margin-bottom: -23px;
   height: 283px;
 }
 h3 {
   justify-content: center;
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 17px;
   display: flex;
 }
@@ -300,7 +304,6 @@ h3:hover {
 
 .heading {
   font-size: 5rem;
-  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -388,7 +391,7 @@ span {
   margin: 0.8rem 0;
 }
 .contact form .input-box .input-field input {
-  width: 100%;
+  width: 200%;
   height: 100%;
   padding: 1.5rem;
   font-size: 1.6rem;
@@ -421,4 +424,9 @@ a {
   transition: 0.5s;
   color: #ededed;
   background-color: red;
+}
+
+/* media query for cards */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 }
