@@ -27,6 +27,12 @@ body {
   color: var(--text-color);
 }
 
+
+.heading {
+  font-size: 5rem;
+  text-align: center;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -71,17 +77,18 @@ header {
 }
 
 section {
-  padding: 10rem 9% 2rem;
+  padding: 9rem 9% 3rem;
   /* margin-bottom: 100px; */
 }
 
 .home {
   display: flex;
   align-items: center;
-  padding: 143px 9%;
+  padding: 11.4% 9%;
   background: url(brand3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  overflow-y: hidden;
   background-position: 20px;
 }
 
@@ -110,10 +117,6 @@ section {
 .home-content p {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
-}
-
-.main-project-div{
-  height: 10px;
 }
 
 .btn-box {
@@ -235,61 +238,6 @@ section {
 }
 
 /* my projects */
-
-.image1 {
-  display: flex;
-  margin: auto;
-  margin-left: -55px;
-  margin-top: 55px;
-}
-
-.imglogo1 {
-  height: 170px;
-  width: 170px;
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 15px;
-  border: 0.2rem solid var(--main-color);
-  cursor: pointer;
-}
-
-.imglogo1:hover {
-  border: 0.2rem solid red;
-}
-.row1 {
-  border: 2px solid var(--main-color);
-  justify-content: center;
-  margin-right: 40px;
-  height: 283px;
-}
-
-.row2 {
-  border: 2px solid var(--main-color);
-  justify-content: center;
-  margin-right: 40px;
-  height: 283px;
-}
-h3 {
-  justify-content: center;
-  font-size: 16px;
-  margin-top: 17px;
-  display: flex;
-}
-
-h3:hover {
-  color: var(--main-color);
-  cursor: pointer;
-}
-
-.image1 {
-  width: 100%;
-  height: 250px;
-  margin-left: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* about css */
 
 .about {
@@ -300,11 +248,6 @@ h3:hover {
   gap: 0rem;
   background: var(--second-bg-color);
   padding-bottom: 3rem;
-}
-
-.heading {
-  font-size: 5rem;
-  text-align: center;
 }
 
 span {
@@ -428,5 +371,14 @@ a {
 
 /* media query for cards */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+  .home {
+    display: flex;
+    align-items: center;
+    padding: 42.5% 3%;
+    background: url(brand3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 20px;
+}
 }
